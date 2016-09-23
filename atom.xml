@@ -4,9 +4,9 @@
   <subtitle>每个技术团队,都有一个年久失修的Bi-log</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="http://marion-lixy.top/"/>
   <updated>2016-09-22T10:44:27.908Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://marion-lixy.top/</id>
   
   <author>
     <name>小杨</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>写在最前面的话</title>
-    <link href="http://yoursite.com/2016/09/22/%E5%86%99%E5%9C%A8%E6%9C%80%E5%89%8D%E9%9D%A2%E7%9A%84%E8%AF%9D/"/>
-    <id>http://yoursite.com/2016/09/22/写在最前面的话/</id>
+    <link href="http://marion-lixy.top/2016/09/22/%E5%86%99%E5%9C%A8%E6%9C%80%E5%89%8D%E9%9D%A2%E7%9A%84%E8%AF%9D/"/>
+    <id>http://marion-lixy.top/2016/09/22/写在最前面的话/</id>
     <published>2016-09-22T04:46:00.000Z</published>
     <updated>2016-09-22T10:44:27.908Z</updated>
     
@@ -34,17 +34,17 @@
     
     </summary>
     
-      <category term="生活" scheme="http://yoursite.com/categories/%E7%94%9F%E6%B4%BB/"/>
+      <category term="生活" scheme="http://marion-lixy.top/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-      <category term="我" scheme="http://yoursite.com/tags/%E6%88%91/"/>
+      <category term="我" scheme="http://marion-lixy.top/tags/%E6%88%91/"/>
     
   </entry>
   
   <entry>
     <title>搭在github个人免费博客测试</title>
-    <link href="http://yoursite.com/2016/09/20/%E7%AC%AC%E4%B8%80%E6%AC%A1github%E5%8D%9A%E5%AE%A2/"/>
-    <id>http://yoursite.com/2016/09/20/第一次github博客/</id>
+    <link href="http://marion-lixy.top/2016/09/20/%E7%AC%AC%E4%B8%80%E6%AC%A1github%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://marion-lixy.top/2016/09/20/第一次github博客/</id>
     <published>2016-09-20T09:47:00.000Z</published>
     <updated>2016-09-22T06:19:26.064Z</updated>
     
@@ -63,12 +63,12 @@
     
     </summary>
     
-      <category term="工作" scheme="http://yoursite.com/categories/%E5%B7%A5%E4%BD%9C/"/>
+      <category term="工作" scheme="http://marion-lixy.top/categories/%E5%B7%A5%E4%BD%9C/"/>
     
     
-      <category term="乱弹" scheme="http://yoursite.com/tags/%E4%B9%B1%E5%BC%B9/"/>
+      <category term="乱弹" scheme="http://marion-lixy.top/tags/%E4%B9%B1%E5%BC%B9/"/>
     
-      <category term="BiBi" scheme="http://yoursite.com/tags/BiBi/"/>
+      <category term="BiBi" scheme="http://marion-lixy.top/tags/BiBi/"/>
     
   </entry>
   
