@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://marion-lixy.top/"/>
-  <updated>2016-11-12T15:26:50.867Z</updated>
+  <updated>2016-12-01T13:01:51.686Z</updated>
   <id>http://marion-lixy.top/</id>
   
   <author>
@@ -14,6 +14,39 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>苦闷与彷徨</title>
+    <link href="http://marion-lixy.top/2016/12/01/%E8%8B%A6%E9%97%B7%E4%B8%8E%E5%BD%B7%E5%BE%A8/"/>
+    <id>http://marion-lixy.top/2016/12/01/苦闷与彷徨/</id>
+    <published>2016-12-01T11:10:12.000Z</published>
+    <updated>2016-12-01T13:01:51.686Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>苦闷跟彷徨却是时时刻刻的事情，可我们心意的事情毕竟是少数，不按照我们心意来的事情却是大多数</p>
+</blockquote>
+<p>   总喜欢在自己累赘的时候，写一些伤感的文字，记录和体味这苦闷的味道。</p>
+<p>   这次来源于工作感觉遇到了麻烦，不是自己不会弄，而是感觉到上上下下，自己孤立无援，项目完全不按照项目管理流程来，项目经理（暂且称为Y某，有四五年工作经验，是个女生，完全依赖X某）和技术leader（暂且称为X某，自称有十年工作经验），分析完业务，出了一半原型设计，一个数据库设计，然后就交给我我们开发人员去开发，做为项目组核心人员，我也是无语了，开发完全根据口头表述来做，边开发边设计模式。</p>
+<p>   项目开发到不到一半上，开发遇到了瓶颈，X某主张用一个页面模板来生成所有web页面，满足不了所有业务需求，因为有些特殊的页面没有考虑进来，然后X某提出就这个页面模板上用if去判断要不要选择特殊的组件，并且这说是行的通，拆不拆分（分成多个模板）都不重要，我当时真他妈想吐了，拆分模板和从你通用角度有半毛钱关系，你怎么不把js和css都写到一个文件里，用夹门的脑袋想一想都知道。</p>
+<p>   项目原定要去开发现场的，但是后来发现现场没有地方，就没有沦为外包小三的命运，但项目进度还是拼命敢，其余三个开发人员，有两个是应届毕业生，一个是从其他行业转过来的，用《人月神话》的角度讲，这只会拖慢项目进度，也就只能等着天天加班到很晚的彷徨了。</p>
+<p>   对X某的无知和不懂，对Y某的依赖。怀着这种苦闷与彷徨的心情，我就只有对项目，公司都丧失了信心。</p>
+<p>  未来的未来，翘首彷徨。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;&lt;p&gt;苦闷跟彷徨却是时时刻刻的事情，可我们心意的事情毕竟是少数，不按照我们心意来的事情却是大多数&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;   总喜欢在自己累赘的时候，写一些伤感的文字，记录和体味这苦闷的味道。&lt;/p&gt;
+&lt;p&gt;   这次来源于工作感觉遇到
+    
+    </summary>
+    
+      <category term="工作" scheme="http://marion-lixy.top/categories/%E5%B7%A5%E4%BD%9C/"/>
+    
+    
+      <category term="工作感想" scheme="http://marion-lixy.top/tags/%E5%B7%A5%E4%BD%9C%E6%84%9F%E6%83%B3/"/>
+    
+  </entry>
   
   <entry>
     <title>走了一段很长的路,突然又想折回来</title>
@@ -246,11 +279,11 @@
   </entry>
   
   <entry>
-    <title>搭在github个人免费博客测试</title>
+    <title>第一课</title>
     <link href="http://marion-lixy.top/2016/09/20/%E7%AC%AC%E4%B8%80%E6%AC%A1github%E5%8D%9A%E5%AE%A2/"/>
     <id>http://marion-lixy.top/2016/09/20/第一次github博客/</id>
     <published>2016-09-20T09:47:00.000Z</published>
-    <updated>2016-09-25T16:40:26.938Z</updated>
+    <updated>2016-12-01T11:04:49.495Z</updated>
     
     <content type="html"><![CDATA[<blockquote><p>拿什么开始我的生活……</p>
 <footer><strong>lixy</strong></footer></blockquote>
