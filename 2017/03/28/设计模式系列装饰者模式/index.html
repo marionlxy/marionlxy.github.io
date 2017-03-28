@@ -108,15 +108,24 @@
 
 
 
-<meta name="description" content="惟有王城最堪隐，万人如海一身藏">
-<meta property="og:type" content="website">
-<meta property="og:title" content="理想自留地">
-<meta property="og:url" content="http://marion-lixy.top/tags/日常/index.html">
+<meta name="description" content="趁面试之余，整理了一些常用的设计模式，针对java实现的的，好增加一些自信。 装饰者模式：动态地将责任附加到对象上，如要扩展功能，装饰者比继承提供了更有弹性的替代方案
+
+一，应用场景  解决咖啡店饮料搭配和计算问题，java的java io或者java nio，也使用装饰者行为设计模式。画一个简单的类图，有助于理解。    需要注意的是，装饰者和被装饰对象有相同的超类型，他们都继承共同的抽象类">
+<meta property="og:type" content="article">
+<meta property="og:title" content="设计模式系列装饰者模式">
+<meta property="og:url" content="http://marion-lixy.top/2017/03/28/设计模式系列装饰者模式/index.html">
 <meta property="og:site_name" content="理想自留地">
-<meta property="og:description" content="惟有王城最堪隐，万人如海一身藏">
+<meta property="og:description" content="趁面试之余，整理了一些常用的设计模式，针对java实现的的，好增加一些自信。 装饰者模式：动态地将责任附加到对象上，如要扩展功能，装饰者比继承提供了更有弹性的替代方案
+
+一，应用场景  解决咖啡店饮料搭配和计算问题，java的java io或者java nio，也使用装饰者行为设计模式。画一个简单的类图，有助于理解。    需要注意的是，装饰者和被装饰对象有相同的超类型，他们都继承共同的抽象类">
+<meta property="og:image" content="http://i.imgur.com/i0dN76O.jpg">
+<meta property="og:updated_time" content="2017-03-28T06:56:33.305Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="理想自留地">
-<meta name="twitter:description" content="惟有王城最堪隐，万人如海一身藏">
+<meta name="twitter:title" content="设计模式系列装饰者模式">
+<meta name="twitter:description" content="趁面试之余，整理了一些常用的设计模式，针对java实现的的，好增加一些自信。 装饰者模式：动态地将责任附加到对象上，如要扩展功能，装饰者比继承提供了更有弹性的替代方案
+
+一，应用场景  解决咖啡店饮料搭配和计算问题，java的java io或者java nio，也使用装饰者行为设计模式。画一个简单的类图，有助于理解。    需要注意的是，装饰者和被装饰对象有相同的超类型，他们都继承共同的抽象类">
+<meta name="twitter:image" content="http://i.imgur.com/i0dN76O.jpg">
 
 
 
@@ -137,9 +146,9 @@
 
 
 
-  <link rel="canonical" href="http://marion-lixy.top/tags/日常/"/>
+  <link rel="canonical" href="http://marion-lixy.top/2017/03/28/设计模式系列装饰者模式/"/>
 
-  <title> 标签: 日常 | 理想自留地 </title>
+  <title> 设计模式系列装饰者模式 | 理想自留地 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -176,7 +185,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-right  ">
+  <div class="container one-collumn sidebar-position-right page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -466,53 +475,288 @@ var _hmt = _hmt || [];
           <div id="content" class="content">
             
 
-  <div id="posts" class="posts-collapse">
-    <div class="collection-title">
-      <h2 >
-        日常
-        <small>标签</small>
-      </h2>
-    </div>
+  <div id="posts" class="posts-expand">
+    
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
 
     
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                设计模式系列装饰者模式
+              
+            
+          </h1>
+        
+
       
 
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2017-03-28T13:42:28+08:00" content="2017-03-28">
+              2017-03-28
+            </time>
+            &nbsp; | &nbsp;<span class="post-meta-item-text">字数统计</span><span class="post-count">981</span>
+            &nbsp; | &nbsp;<span class="post-meta-item-text">阅读时长预计</span><span class="post-count">4</span>
+          </span>
 
-      <h1 class="post-title">
+           
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2017/03/28/设计模式系列装饰者模式/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/03/28/设计模式系列装饰者模式/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+             <span id="/2017/03/28/设计模式系列装饰者模式/" class="leancloud_visitors" data-flag-title="设计模式系列装饰者模式">
+               &nbsp; | &nbsp;
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               <span class="post-meta-item-text">阅读次数 </span>
+               <span class="leancloud-visitors-count"></span>
+              </span>
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>  趁面试之余，整理了一些常用的设计模式，针对java实现的的，好增加一些自信。<br> <blockquote><p>装饰者模式：动态地将责任附加到对象上，如要扩展功能，装饰者比继承提供了更有弹性的替代方案</p>
+</blockquote></p>
+<h1 id="一，应用场景"><a href="#一，应用场景" class="headerlink" title="一，应用场景"></a>一，应用场景</h1><p>  解决咖啡店饮料搭配和计算问题，java的java io或者java nio，也使用装饰者行为设计模式。画一个简单的类图，有助于理解。<br>    <img src="http://i.imgur.com/i0dN76O.jpg" alt=""><br>需要注意的是，装饰者和被装饰对象有相同的超类型，他们都继承共同的抽象类。<br>以InputStream为例，它是一个抽象类:</p>
+<p>public abstract class InputStream implements Closeable {<br>    …<br>    …<br>}</p>
+<p>并定义有抽象方法</p>
+<p>public abstract int read() throws IOException;</p>
+<p>该抽象方法由具体的子类去实现，通过InputStream的族谱图可以看到，直接继承了InputStream，并且提供某一特定功能的子类有：</p>
+<pre><code>ByteArrayInputStream
+
+FileInputStream
+
+ObjectInputStream
+
+PipedInputStream
+
+SequenceInputStream
+
+StringBufferInputStream
+</code></pre><p>这些子类都具有特定的功能，比如说，FileInputStream代表一个文件输入流并提供读取文件内容的功能，ObjectInputStream提供了对象反序列化的功能。</p>
+<p>InputStream这个抽象类有一个子类与上述其它子类非常不同，这个子类就是FilterInputStream，可参见上图中的InputStream族谱图。</p>
+<p>翻开FilterInputStream的代码，我们可以看到，它内部又维护了一个InputStream的成员对象，并且它的所有方法，都是调用这个成员对象的同名方法。换句话说，FilterInputStream它什么事都不做。就是把调用委托给内部的InputStream成员对象。如下所示：</p>
+<p>public class FilterInputStream extends InputStream {<br>    protected volatile InputStream in;</p>
+<pre><code>protected FilterInputStream(InputStream in) {
+    this.in = in;
+}
+
+public int read() throws IOException {
+    return in.read();
+}
+
+public int read(byte b[]) throws IOException {
+    return read(b, 0, b.length);
+}
+
+public int read(byte b[], int off, int len) throws IOException {
+    return in.read(b, off, len);
+}
+
+public long skip(long n) throws IOException {
+    return in.skip(n);
+}
+
+public int available() throws IOException {
+    return in.available();
+}
+
+public void close() throws IOException {
+    in.close();
+}
+
+public synchronized void mark(int readlimit) {
+    in.mark(readlimit);
+}
+
+public synchronized void reset() throws IOException {
+    in.reset();
+}
+
+public boolean markSupported() {
+    return in.markSupported();
+}
+</code></pre><p>FilterInputStream的又有其子类，分别是：</p>
+<pre><code>BufferedInputStream
+
+DataInputStream
+
+LineNumberInputStream
+
+PushbackInputStream
+</code></pre><p>虽然从上面代码看FilterInputStream并没有做什么有卵用的事，但是它的子类可不同了，以BufferedInputStream为例，这个类提供了提前读取数据的功能，也就是缓冲的功能。可以看看它的read方法：</p>
+<pre><code>public synchronized int read() throws IOException {
+    if (pos &gt;= count) {
+        fill();
+        if (pos &gt;= count)
+            return -1;
+    }
+    return getBufIfOpen()[pos++] &amp; 0xff;
+}
+</code></pre><p>可以看到，当pos&gt;=count时，意即需要提前缓冲一些数据的时候到了，那么就会调用fill()将缓冲区加满，以便后续读取。由于本文只讨论io流的装饰器模式，所以关于具体实现细节将不会展开讨论，比如本文不会讨论fill()方法是如何实现的，在这里可以先将它当做一个黑盒子。</p>
+<p>从这里可以开始感受到，BufferedInputStream就是一个装饰者，它能为一个原本没有缓冲功能的InputStream添加上缓冲的功能。</p>
+<p>比如我们常用的FileInputStream，它并没有缓冲功能，我们每次调用read，都会向操作系统发起调用索要数据。假如我们通过BufferedInputStream来装饰它，那么每次调用read，会预先向操作系统多拿一些数据，这样就不知不觉中提高了程序的性能。如以下代码所示：</p>
+<p>BufferedInputStream bis = new BufferedInputStream(new FileInputStream(new File(“/home/user/abc.txt”)));</p>
+<p>同理，对于其它的FilterInputStream的子类，其作用也是一样的，那就是装饰一个InputStream，为它添加它原本不具有的功能。OutputStream以及家属对于装饰器模式的体现，也以此类推。</p>
+<p>JDK中的io流的设计是设计模式中装饰器模式的一个经典示范，如果细心发现，JDK中还有许多其它设计模式的体现，比如说监听者模式等等。</p>
+
+      
+    </div>
+
+    <div>
+      
         
-            <a class="post-title-link" href="/2017/02/21/阳春白雪/" itemprop="url">
-              
-                <span itemprop="name">'阳春白雪'</span>
-              
-            </a>
+<div id="wechat_subscriber" style="display: block; padding: 10px 0; margin: 20px auto; width: 100%; text-align: center">
+    <img id="wechat_subscriber_qcode" src="/uploads/weixin.png" alt="小杨 wechat" style="width: 200px; max-width: 100%;"/>
+    <div>这可以加我为好友！</div>
+</div>
+
+
+      
+    </div>
+
+    <div>
+      
         
-      </h1>
+  <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+    <div></div>
+    <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+      <span>赏</span>
+    </button>
+    <div id="QR" style="display: none;">
+      
+        <div id="wechat" style="display: inline-block">
+          <img id="wechat_qr" src="/uploads/wxpay.png" alt="小杨 WeChat Pay"/>
+          <p>微信打赏</p>
+        </div>
+      
+      
+        <div id="alipay" style="display: inline-block">
+          <img id="alipay_qr" src="/uploads/zfbpay.jpg" alt="小杨 Alipay"/>
+          <p>支付宝打赏</p>
+        </div>
+      
+    </div>
+  </div>
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-02-21T21:05:33+08:00"
-              content="2017-02-21" >
-          02-21
-        </time>
-      </div>
 
-    </header>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/03/27/我离职了/" rel="next" title="我离职了">
+                <i class="fa fa-chevron-left"></i> 我离职了
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </article>
 
 
-    
-  </div>
 
-  
+    <div class="post-spread">
+      
+        <!-- JiaThis Button BEGIN -->
+<div class="jiathis_style">
+  <a class="jiathis_button_tsina"></a>
+  <a class="jiathis_button_tqq"></a>
+  <a class="jiathis_button_weixin"></a>
+  <a class="jiathis_button_cqq"></a>
+  <a class="jiathis_button_douban"></a>
+  <a class="jiathis_button_renren"></a>
+  <a class="jiathis_button_qzone"></a>
+  <a class="jiathis_button_kaixin001"></a>
+  <a class="jiathis_button_copy"></a>
+  <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank"></a>
+  <a class="jiathis_counter_style"></a>
+</div>
+<script type="text/javascript" >
+  var jiathis_config={
+    hideMore:false
+  }
+</script>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+
+      
+    </div>
+  </div>
 
 
           </div>
           
 
+  <p>热评文章</p>
+  <div class="ds-top-threads" data-range="weekly" data-num-items="4"></div>
+
 
           
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="2017/03/28/设计模式系列装饰者模式/"
+           data-title="设计模式系列装饰者模式" data-url="http://marion-lixy.top/2017/03/28/设计模式系列装饰者模式/">
+      </div>
+    
+  </div>
+
 
         </div>
         
@@ -532,8 +776,17 @@ var _hmt = _hmt || [];
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/uploads/person.png"
@@ -670,6 +923,17 @@ var _hmt = _hmt || [];
       </section>
 
       
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#一，应用场景"><span class="nav-number">1.</span> <span class="nav-text">一，应用场景</span></a></li></ol></div>
+            
+          </div>
+        </section>
+      
 
     </div>
   </aside>
@@ -774,6 +1038,10 @@ var _hmt = _hmt || [];
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
 
   
 
