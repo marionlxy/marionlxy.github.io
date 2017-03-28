@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://marion-lixy.top/"/>
-  <updated>2017-03-04T12:27:38.466Z</updated>
+  <updated>2017-03-27T01:54:22.203Z</updated>
   <id>http://marion-lixy.top/</id>
   
   <author>
@@ -14,6 +14,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我离职了</title>
+    <link href="http://marion-lixy.top/2017/03/27/%E6%88%91%E7%A6%BB%E8%81%8C%E4%BA%86/"/>
+    <id>http://marion-lixy.top/2017/03/27/我离职了/</id>
+    <published>2017-03-27T01:21:18.000Z</published>
+    <updated>2017-03-27T01:54:22.203Z</updated>
+    
+    <content type="html"><![CDATA[<p>   我离职了，当然不会像什么影响力，我只是一个普通的，接近野生的程序员,和什么百度人工智能首席科学家吴恩达离职事件相比，根本就是两个世界发生的事件，可能，我有的只是，世界很大，我想去看看。</p>
+<p>   离职说了，我应该谈谈接下来的生活plan，说实话，我是一个北漂，可能几年下来，我都没有固定下来，我来这里目的，更多可能是找一份好的工作，赚一点回家买房的钱，其它可有，无则免之。</p>
+<p>   我知道离职这段期间，我的心情会紧绷，因为背后会有一些压力，买房，结婚，生子，养老，毕竟，到了这个年纪，很多东西也会伴随而来，这会让我莫名的局促不安，所以我想通过一些文字表述，能排序，释放我的一些压力。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;   我离职了，当然不会像什么影响力，我只是一个普通的，接近野生的程序员,和什么百度人工智能首席科学家吴恩达离职事件相比，根本就是两个世界发生的事件，可能，我有的只是，世界很大，我想去看看。&lt;/p&gt;
+&lt;p&gt;   离职说了，我应该谈谈接下来的生活plan，说实话，我是一个北漂
+    
+    </summary>
+    
+      <category term="生活" scheme="http://marion-lixy.top/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>jvm设计原理</title>
