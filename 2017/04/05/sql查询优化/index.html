@@ -108,15 +108,22 @@
 
 
 
-<meta name="description" content="惟有王城最堪隐，万人如海一身藏">
-<meta property="og:type" content="website">
-<meta property="og:title" content="理想自留地">
-<meta property="og:url" content="http://marion-lixy.top/archives/2016/10/index.html">
+<meta name="description" content="一，设计表之前1，设计表之前尽量满足数据库设计三范式
+2，应尽量避免全表扫描，在 where 子句中使用!=或&amp;lt;&amp;gt;操作符，否则将引擎放弃使用索引而进行全表扫描（null，or，！=，like，union all，表达式操作（num/2=100）），可以适当考虑（exists，order by ）
+3,适当使用临时表，例如，当需要重复引用大型表或常用表中的某个数据集时。但是，对于一次性事">
+<meta property="og:type" content="article">
+<meta property="og:title" content="sql优化">
+<meta property="og:url" content="http://marion-lixy.top/2017/04/05/sql查询优化/index.html">
 <meta property="og:site_name" content="理想自留地">
-<meta property="og:description" content="惟有王城最堪隐，万人如海一身藏">
+<meta property="og:description" content="一，设计表之前1，设计表之前尽量满足数据库设计三范式
+2，应尽量避免全表扫描，在 where 子句中使用!=或&amp;lt;&amp;gt;操作符，否则将引擎放弃使用索引而进行全表扫描（null，or，！=，like，union all，表达式操作（num/2=100）），可以适当考虑（exists，order by ）
+3,适当使用临时表，例如，当需要重复引用大型表或常用表中的某个数据集时。但是，对于一次性事">
+<meta property="og:updated_time" content="2017-04-05T09:41:42.776Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="理想自留地">
-<meta name="twitter:description" content="惟有王城最堪隐，万人如海一身藏">
+<meta name="twitter:title" content="sql优化">
+<meta name="twitter:description" content="一，设计表之前1，设计表之前尽量满足数据库设计三范式
+2，应尽量避免全表扫描，在 where 子句中使用!=或&amp;lt;&amp;gt;操作符，否则将引擎放弃使用索引而进行全表扫描（null，or，！=，like，union all，表达式操作（num/2=100）），可以适当考虑（exists，order by ）
+3,适当使用临时表，例如，当需要重复引用大型表或常用表中的某个数据集时。但是，对于一次性事">
 
 
 
@@ -137,9 +144,9 @@
 
 
 
-  <link rel="canonical" href="http://marion-lixy.top/archives/2016/10/"/>
+  <link rel="canonical" href="http://marion-lixy.top/2017/04/05/sql查询优化/"/>
 
-  <title> 归档 | 理想自留地 </title>
+  <title> sql优化 | 理想自留地 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -176,7 +183,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-right  page-archive  ">
+  <div class="container one-collumn sidebar-position-right page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -466,147 +473,212 @@ var _hmt = _hmt || [];
           <div id="content" class="content">
             
 
-  <section id="posts" class="posts-collapse">
-    <span class="archive-move-on"></span>
-
-    <span class="archive-page-counter">
-      
-      
-      
-        
-      
-      嗯..! 目前共计 19 篇日志。 继续努力。
-    </span>
-
+  <div id="posts" class="posts-expand">
     
 
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                sql优化
+              
+            
+          </h1>
+        
+
       
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2017-04-05T17:22:34+08:00" content="2017-04-05">
+              2017-04-05
+            </time>
+            &nbsp; | &nbsp;<span class="post-meta-item-text">字数统计</span><span class="post-count">309</span>
+            &nbsp; | &nbsp;<span class="post-meta-item-text">阅读时长预计</span><span class="post-count">1</span>
+          </span>
+
+           
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2017/04/05/sql查询优化/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/04/05/sql查询优化/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+             <span id="/2017/04/05/sql查询优化/" class="leancloud_visitors" data-flag-title="sql优化">
+               &nbsp; | &nbsp;
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               <span class="post-meta-item-text">阅读次数 </span>
+               <span class="leancloud-visitors-count"></span>
+              </span>
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
       
       
 
       
+        <h1 id="一，设计表之前"><a href="#一，设计表之前" class="headerlink" title="一，设计表之前"></a>一，设计表之前</h1><pre><code>1，设计表之前尽量满足数据库设计三范式
+2，应尽量避免全表扫描，在 where 子句中使用!=或&lt;&gt;操作符，否则将引擎放弃使用索引而进行全表扫描（null，or，！=，like，union all，表达式操作（num/2=100）），可以适当考虑（exists，order by ）
+3,适当使用临时表，例如，当需要重复引用大型表或常用表中的某个数据集时。但是，对于一次性事件，最好使 用导出表。
+4，使用存储过程，尽量避免使用游标，因为游标的效率较差，如果游标操作的数据超过1万行，那么就应该考虑改写。
+5，尽量避免大事务操作，提高系统并发能力。
+</code></pre><h1 id="实际处理过程"><a href="#实际处理过程" class="headerlink" title="实际处理过程"></a>实际处理过程</h1><pre><code>1.善用explain，看看自己写的sql到底要涉及到多少表，多少行，使用了那些索引，根据这些信息适当的创建索引；
+2.善用不同的存储引擎，MySQL有多种不同的存储引擎，InnoDB，Aria，MEMORY根据需要给不同的表选择不同的存储引擎，比如要支持transaction的话用InnoDB等；
+3.表很大的时候，做分片。
+</code></pre>
+      
+    </div>
+
+    <div>
+      
         
-        <div class="collection-title">
-          <h2 class="archive-year motion-element" id="archive-year-2016">2016</h2>
+<div id="wechat_subscriber" style="display: block; padding: 10px 0; margin: 20px auto; width: 100%; text-align: center">
+    <img id="wechat_subscriber_qcode" src="/uploads/weixin.png" alt="小杨 wechat" style="width: 200px; max-width: 100%;"/>
+    <div>这可以加我为好友！</div>
+</div>
+
+
+      
+    </div>
+
+    <div>
+      
+        
+  <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+    <div></div>
+    <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+      <span>赏</span>
+    </button>
+    <div id="QR" style="display: none;">
+      
+        <div id="wechat" style="display: inline-block">
+          <img id="wechat_qr" src="/uploads/wxpay.png" alt="小杨 WeChat Pay"/>
+          <p>微信打赏</p>
         </div>
       
       
+        <div id="alipay" style="display: inline-block">
+          <img id="alipay_qr" src="/uploads/zfbpay.jpg" alt="小杨 Alipay"/>
+          <p>支付宝打赏</p>
+        </div>
+      
+    </div>
+  </div>
+
 
       
+    </div>
 
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+    <footer class="post-footer">
+      
 
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/2016/10/29/为什么过了23岁就再难交到好朋友/" itemprop="url">
-              
-                <span itemprop="name">为什么过了23岁就再难交到好朋友</span>
-              
-            </a>
-        
-      </h1>
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/03/29/对常见高并发一些业务场景的理解/" rel="next" title="对常见高并发一些业务场景的理解">
+                <i class="fa fa-chevron-left"></i> 对常见高并发一些业务场景的理解
+              </a>
+            
+          </div>
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2016-10-29T19:39:52+08:00"
-              content="2016-10-29" >
-          10-29
-        </time>
-      </div>
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
 
-    </header>
+      
+      
+    </footer>
   </article>
 
 
 
-    
+    <div class="post-spread">
+      
+        <!-- JiaThis Button BEGIN -->
+<div class="jiathis_style">
+  <a class="jiathis_button_tsina"></a>
+  <a class="jiathis_button_tqq"></a>
+  <a class="jiathis_button_weixin"></a>
+  <a class="jiathis_button_cqq"></a>
+  <a class="jiathis_button_douban"></a>
+  <a class="jiathis_button_renren"></a>
+  <a class="jiathis_button_qzone"></a>
+  <a class="jiathis_button_kaixin001"></a>
+  <a class="jiathis_button_copy"></a>
+  <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank"></a>
+  <a class="jiathis_counter_style"></a>
+</div>
+<script type="text/javascript" >
+  var jiathis_config={
+    hideMore:false
+  }
+</script>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+<!-- JiaThis Button END -->
 
       
-      
-      
-
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/2016/10/22/职业/" itemprop="url">
-              
-                <span itemprop="name">职业寒冬</span>
-              
-            </a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2016-10-22T21:02:25+08:00"
-              content="2016-10-22" >
-          10-22
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-      
-      
-      
-
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/2016/10/07/我的国庆7天/" itemprop="url">
-              
-                <span itemprop="name">我的国庆7天流水账</span>
-              
-            </a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2016-10-07T08:34:22+08:00"
-              content="2016-10-07" >
-          10-07
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-  </section>
-
-  
-
+    </div>
+  </div>
 
 
           </div>
           
 
+  <p>热评文章</p>
+  <div class="ds-top-threads" data-range="weekly" data-num-items="4"></div>
+
 
           
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="2017/04/05/sql查询优化/"
+           data-title="sql优化" data-url="http://marion-lixy.top/2017/04/05/sql查询优化/">
+      </div>
+    
+  </div>
+
 
         </div>
         
@@ -626,8 +698,17 @@ var _hmt = _hmt || [];
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/uploads/person.png"
@@ -764,6 +845,17 @@ var _hmt = _hmt || [];
       </section>
 
       
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#一，设计表之前"><span class="nav-number">1.</span> <span class="nav-text">一，设计表之前</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#实际处理过程"><span class="nav-number">2.</span> <span class="nav-text">实际处理过程</span></a></li></ol></div>
+            
+          </div>
+        </section>
+      
 
     </div>
   </aside>
@@ -868,11 +960,9 @@ var _hmt = _hmt || [];
   
 
   
-  
-    <script type="text/javascript" id="motion.page.archive">
-      $('.archive-year').velocity('transition.slideLeftIn');
-    </script>
-  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
 
 
   

@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://marion-lixy.top/"/>
-  <updated>2017-03-29T14:30:48.914Z</updated>
+  <updated>2017-04-05T09:41:42.776Z</updated>
   <id>http://marion-lixy.top/</id>
   
   <author>
@@ -14,6 +14,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>sql优化</title>
+    <link href="http://marion-lixy.top/2017/04/05/sql%E6%9F%A5%E8%AF%A2%E4%BC%98%E5%8C%96/"/>
+    <id>http://marion-lixy.top/2017/04/05/sql查询优化/</id>
+    <published>2017-04-05T09:22:34.000Z</published>
+    <updated>2017-04-05T09:41:42.776Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="一，设计表之前"><a href="#一，设计表之前" class="headerlink" title="一，设计表之前"></a>一，设计表之前</h1><pre><code>1，设计表之前尽量满足数据库设计三范式
+2，应尽量避免全表扫描，在 where 子句中使用!=或&lt;&gt;操作符，否则将引擎放弃使用索引而进行全表扫描（null，or，！=，like，union all，表达式操作（num/2=100）），可以适当考虑（exists，order by ）
+3,适当使用临时表，例如，当需要重复引用大型表或常用表中的某个数据集时。但是，对于一次性事件，最好使 用导出表。
+4，使用存储过程，尽量避免使用游标，因为游标的效率较差，如果游标操作的数据超过1万行，那么就应该考虑改写。
+5，尽量避免大事务操作，提高系统并发能力。
+</code></pre><h1 id="实际处理过程"><a href="#实际处理过程" class="headerlink" title="实际处理过程"></a>实际处理过程</h1><pre><code>1.善用explain，看看自己写的sql到底要涉及到多少表，多少行，使用了那些索引，根据这些信息适当的创建索引；
+2.善用不同的存储引擎，MySQL有多种不同的存储引擎，InnoDB，Aria，MEMORY根据需要给不同的表选择不同的存储引擎，比如要支持transaction的话用InnoDB等；
+3.表很大的时候，做分片。
+</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;一，设计表之前&quot;&gt;&lt;a href=&quot;#一，设计表之前&quot; class=&quot;headerlink&quot; title=&quot;一，设计表之前&quot;&gt;&lt;/a&gt;一，设计表之前&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;1，设计表之前尽量满足数据库设计三范式
+2，应尽量避免全表扫描，在 where 子句
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>对常见高并发一些业务场景的理解</title>
