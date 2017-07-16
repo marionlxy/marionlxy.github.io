@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://marion-lixy.top/"/>
-  <updated>2017-04-07T08:23:34.490Z</updated>
+  <updated>2017-07-16T16:32:45.305Z</updated>
   <id>http://marion-lixy.top/</id>
   
   <author>
@@ -14,6 +14,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我回长沙了</title>
+    <link href="http://marion-lixy.top/2017/07/17/%E6%88%91%E5%9B%9E%E9%95%BF%E6%B2%99%E4%BA%86/"/>
+    <id>http://marion-lixy.top/2017/07/17/我回长沙了/</id>
+    <published>2017-07-16T16:20:12.000Z</published>
+    <updated>2017-07-16T16:32:45.305Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>心若没有栖息的地方，到哪里都是流浪。</p>
+</blockquote>
+<p>   窗外知了在深深的叫着夏天，但是城市似乎还是缺少了蛙声。</p>
+<p>   我已回来三月有余，生活够闲，因此满腹牢骚只能付诸文字了，有人说，沉浸读书写字的人，充满对生活的逃避，我想想还是有一定道理的，长沙没有北上广那么拼。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;&lt;p&gt;心若没有栖息的地方，到哪里都是流浪。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;   窗外知了在深深的叫着夏天，但是城市似乎还是缺少了蛙声。&lt;/p&gt;
+&lt;p&gt;   我已回来三月有余，生活够闲，因此满腹牢骚只能付诸文字了，有人说，沉浸读书写字的人，充满对
+    
+    </summary>
+    
+      <category term="生活" scheme="http://marion-lixy.top/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="生活" scheme="http://marion-lixy.top/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
   
   <entry>
     <title>sql优化</title>
