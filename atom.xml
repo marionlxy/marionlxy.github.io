@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://marion-lixy.top/"/>
-  <updated>2017-07-16T16:32:45.305Z</updated>
+  <updated>2017-11-26T04:45:49.875Z</updated>
   <id>http://marion-lixy.top/</id>
   
   <author>
@@ -17,10 +17,10 @@
   
   <entry>
     <title>我回长沙了</title>
-    <link href="http://marion-lixy.top/2017/07/17/%E6%88%91%E5%9B%9E%E9%95%BF%E6%B2%99%E4%BA%86/"/>
-    <id>http://marion-lixy.top/2017/07/17/我回长沙了/</id>
+    <link href="http://marion-lixy.top/2017/07/17/cs_life/"/>
+    <id>http://marion-lixy.top/2017/07/17/cs_life/</id>
     <published>2017-07-16T16:20:12.000Z</published>
-    <updated>2017-07-16T16:32:45.305Z</updated>
+    <updated>2017-11-26T04:45:49.875Z</updated>
     
     <content type="html"><![CDATA[<blockquote><p>心若没有栖息的地方，到哪里都是流浪。</p>
 </blockquote>
@@ -37,19 +37,19 @@
     
     </summary>
     
-      <category term="生活" scheme="http://marion-lixy.top/categories/%E7%94%9F%E6%B4%BB/"/>
+      <category term="life" scheme="http://marion-lixy.top/categories/life/"/>
     
     
-      <category term="生活" scheme="http://marion-lixy.top/tags/%E7%94%9F%E6%B4%BB/"/>
+      <category term="feeling" scheme="http://marion-lixy.top/tags/feeling/"/>
     
   </entry>
   
   <entry>
     <title>sql优化</title>
-    <link href="http://marion-lixy.top/2017/04/05/sql%E6%9F%A5%E8%AF%A2%E4%BC%98%E5%8C%96/"/>
-    <id>http://marion-lixy.top/2017/04/05/sql查询优化/</id>
+    <link href="http://marion-lixy.top/2017/04/05/sql_select/"/>
+    <id>http://marion-lixy.top/2017/04/05/sql_select/</id>
     <published>2017-04-05T09:22:34.000Z</published>
-    <updated>2017-04-07T08:23:34.490Z</updated>
+    <updated>2017-11-26T04:37:46.946Z</updated>
     
     <content type="html"><![CDATA[<h1 id="一，设计表之前"><a href="#一，设计表之前" class="headerlink" title="一，设计表之前"></a>一，设计表之前</h1><pre><code>1，设计表之前尽量满足数据库设计三范式
 2，应尽量避免全表扫描，在 where 子句中使用!=或&lt;&gt;操作符，否则将引擎放弃使用索引而进行全表扫描（null，or，！=，like，union all，表达式操作（num/2=100）），可以适当考虑（exists，order by ）
@@ -80,15 +80,17 @@
     
     </summary>
     
+      <category term="technology,java" scheme="http://marion-lixy.top/categories/technology-java/"/>
+    
     
   </entry>
   
   <entry>
     <title>对常见高并发一些业务场景的理解</title>
-    <link href="http://marion-lixy.top/2017/03/29/%E5%AF%B9%E5%B8%B8%E8%A7%81%E9%AB%98%E5%B9%B6%E5%8F%91%E4%B8%80%E4%BA%9B%E4%B8%9A%E5%8A%A1%E5%9C%BA%E6%99%AF%E7%9A%84%E7%90%86%E8%A7%A3/"/>
-    <id>http://marion-lixy.top/2017/03/29/对常见高并发一些业务场景的理解/</id>
+    <link href="http://marion-lixy.top/2017/03/29/high_concurrency/"/>
+    <id>http://marion-lixy.top/2017/03/29/high_concurrency/</id>
     <published>2017-03-29T14:16:02.000Z</published>
-    <updated>2017-03-29T14:30:48.914Z</updated>
+    <updated>2017-11-26T04:43:12.950Z</updated>
     
     <content type="html"><![CDATA[<p>   常见并发场景，本人可以认为分为，并发读，和并发写的主要场景，并发读，可以使用缓存，并发写使用的技术就比较多了。</p>
 <h1 id="案例一"><a href="#案例一" class="headerlink" title="案例一:"></a>案例一:</h1><p>订票系统案例，某航班只有一张机票，假定有1w个人打开你的网站来订票，问你如何解决并发问题(可扩展到任何高并发网站要考虑的并发读写问题)</p>
@@ -133,7 +135,7 @@
     
     </summary>
     
-      <category term="技术，java" scheme="http://marion-lixy.top/categories/%E6%8A%80%E6%9C%AF%EF%BC%8Cjava/"/>
+      <category term="technology,java" scheme="http://marion-lixy.top/categories/technology-java/"/>
     
     
       <category term="jvm" scheme="http://marion-lixy.top/tags/jvm/"/>
@@ -142,10 +144,10 @@
   
   <entry>
     <title>设计模式系列装饰者模式</title>
-    <link href="http://marion-lixy.top/2017/03/28/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E7%B3%BB%E5%88%97%E8%A3%85%E9%A5%B0%E8%80%85%E6%A8%A1%E5%BC%8F/"/>
-    <id>http://marion-lixy.top/2017/03/28/设计模式系列装饰者模式/</id>
+    <link href="http://marion-lixy.top/2017/03/28/decorator_pattern/"/>
+    <id>http://marion-lixy.top/2017/03/28/decorator_pattern/</id>
     <published>2017-03-28T05:42:28.000Z</published>
-    <updated>2017-03-28T06:56:33.306Z</updated>
+    <updated>2017-11-26T04:54:24.038Z</updated>
     
     <content type="html"><![CDATA[<p>  趁面试之余，整理了一些常用的设计模式，针对java实现的的，好增加一些自信。<br> <blockquote><p>装饰者模式：动态地将责任附加到对象上，如要扩展功能，装饰者比继承提供了更有弹性的替代方案</p>
 </blockquote></p>
@@ -241,15 +243,19 @@ PushbackInputStream
     
     </summary>
     
+      <category term="technology,java" scheme="http://marion-lixy.top/categories/technology-java/"/>
+    
+    
+      <category term="pattern" scheme="http://marion-lixy.top/tags/pattern/"/>
     
   </entry>
   
   <entry>
     <title>我离职了</title>
-    <link href="http://marion-lixy.top/2017/03/27/%E6%88%91%E7%A6%BB%E8%81%8C%E4%BA%86/"/>
-    <id>http://marion-lixy.top/2017/03/27/我离职了/</id>
+    <link href="http://marion-lixy.top/2017/03/27/dimissing/"/>
+    <id>http://marion-lixy.top/2017/03/27/dimissing/</id>
     <published>2017-03-27T01:21:18.000Z</published>
-    <updated>2017-03-27T01:54:22.203Z</updated>
+    <updated>2017-11-26T04:48:11.939Z</updated>
     
     <content type="html"><![CDATA[<p>   我离职了，当然不会像什么影响力，我只是一个普通的，接近野生的程序员,和什么百度人工智能首席科学家吴恩达离职事件相比，根本就是两个世界发生的事件，可能，我有的只是，世界很大，我想去看看。</p>
 <p>   离职说了，我应该谈谈接下来的生活plan，说实话，我是一个北漂，可能几年下来，我都没有固定下来，我来这里目的，更多可能是找一份好的工作，赚一点回家买房的钱，其它可有，无则免之。</p>
@@ -263,17 +269,17 @@ PushbackInputStream
     
     </summary>
     
-      <category term="生活" scheme="http://marion-lixy.top/categories/%E7%94%9F%E6%B4%BB/"/>
+      <category term="life" scheme="http://marion-lixy.top/categories/life/"/>
     
     
   </entry>
   
   <entry>
     <title>jvm设计原理</title>
-    <link href="http://marion-lixy.top/2017/03/04/jvm%E8%AE%BE%E8%AE%A1%E5%8E%9F%E7%90%86/"/>
-    <id>http://marion-lixy.top/2017/03/04/jvm设计原理/</id>
+    <link href="http://marion-lixy.top/2017/03/04/jvm_theory/"/>
+    <id>http://marion-lixy.top/2017/03/04/jvm_theory/</id>
     <published>2017-03-04T09:00:32.000Z</published>
-    <updated>2017-03-04T12:27:38.466Z</updated>
+    <updated>2017-11-26T04:39:20.926Z</updated>
     
     <content type="html"><![CDATA[<p>进入java的世界也有三四年，不懂一些java的底层，有点太不应该了，尤其是在遇到了java.lang.OutOfMemoryError异常之后，抓耳挠腮也于事无补，于是愤然整理这些了材料，来稍微治愈一下受伤的心灵，管中窥豹，可见一斑。</p>
 <h1 id="jvm是什么"><a href="#jvm是什么" class="headerlink" title="jvm是什么"></a>jvm是什么</h1><p>jvm我就不说全英文了，中文就指java虚拟机，大概就是一台java世界的操作系统，JVM在整个jdk中处于最底层,负责与操作系统的交互，因为是虚拟机，所以屏蔽一些其它操作系统环境，通过JNI调用接口，与真实宿主物理机机交互。目前围绕各种问题衍生出linux上openjdk，供商业科研之用，以及android平台上基于寄存器的Dalvik虚拟机。</p>
@@ -325,7 +331,7 @@ PushbackInputStream
     
     </summary>
     
-      <category term="技术，java" scheme="http://marion-lixy.top/categories/%E6%8A%80%E6%9C%AF%EF%BC%8Cjava/"/>
+      <category term="technology,java" scheme="http://marion-lixy.top/categories/technology-java/"/>
     
     
       <category term="jvm" scheme="http://marion-lixy.top/tags/jvm/"/>
@@ -334,10 +340,10 @@ PushbackInputStream
   
   <entry>
     <title>&#39;阳春白雪&#39;</title>
-    <link href="http://marion-lixy.top/2017/02/21/%E9%98%B3%E6%98%A5%E7%99%BD%E9%9B%AA/"/>
-    <id>http://marion-lixy.top/2017/02/21/阳春白雪/</id>
+    <link href="http://marion-lixy.top/2017/02/21/snow/"/>
+    <id>http://marion-lixy.top/2017/02/21/snow/</id>
     <published>2017-02-21T13:05:33.000Z</published>
-    <updated>2017-02-21T13:25:54.431Z</updated>
+    <updated>2017-11-26T04:35:11.162Z</updated>
     
     <content type="html"><![CDATA[<p>2017年02月21日，中午时分，北京的天空下起了湿湿绵绵的小雪，惹人怜爱，记得去年整个冬天，北京以北没有下过一场规模如此空前的“大雪”，但是总觉得这场雪下得不是时候，为什么来的这么晚。</p>
 <p>今天驻扎到一家本地银行的现场，搭建项目环境，准备几个月后上线，几个月以前，我还没下过如此早的班，走出大厦，雪景如此，迎面清爽，苦笑一声，走向地铁。</p>
@@ -350,19 +356,19 @@ PushbackInputStream
     
     </summary>
     
-      <category term="生活" scheme="http://marion-lixy.top/categories/%E7%94%9F%E6%B4%BB/"/>
+      <category term="life" scheme="http://marion-lixy.top/categories/life/"/>
     
     
-      <category term="日常" scheme="http://marion-lixy.top/tags/%E6%97%A5%E5%B8%B8/"/>
+      <category term="day" scheme="http://marion-lixy.top/tags/day/"/>
     
   </entry>
   
   <entry>
     <title>幸福有时会迟到，但它从不缺席</title>
-    <link href="http://marion-lixy.top/2017/02/19/%E5%B9%B8%E7%A6%8F%E6%9C%89%E6%97%B6%E4%BC%9A%E8%BF%9F%E5%88%B0%EF%BC%8C%E4%BD%86%E5%AE%83%E4%BB%8E%E4%B8%8D%E7%BC%BA%E5%B8%AD/"/>
-    <id>http://marion-lixy.top/2017/02/19/幸福有时会迟到，但它从不缺席/</id>
+    <link href="http://marion-lixy.top/2017/02/19/happiness/"/>
+    <id>http://marion-lixy.top/2017/02/19/happiness/</id>
     <published>2017-02-19T08:55:25.000Z</published>
-    <updated>2017-02-19T09:23:12.449Z</updated>
+    <updated>2017-11-26T04:45:08.446Z</updated>
     
     <content type="html"><![CDATA[<p>2017年早春三月时节，还在北京，结束完一天的工作，走出大厦，回头看了一眼，高层还在灯火通明中，苦笑一声，往地铁走去。周末不要加班，感觉已足够的幸运。</p>
 <p>在这个陌生的城市想要与另一个熟悉的城市某个人建立一段感情联系，异常艰辛，除非你有浓烈的爱，通过微信，QQ等等，传达了一些信息，感情还悬在空中，在看不见的比特磁场电波里来回震荡，找不到归处，</p>
@@ -375,15 +381,19 @@ PushbackInputStream
     
     </summary>
     
+      <category term="life" scheme="http://marion-lixy.top/categories/life/"/>
+    
+    
+      <category term="feeling" scheme="http://marion-lixy.top/tags/feeling/"/>
     
   </entry>
   
   <entry>
     <title>相识第一天</title>
-    <link href="http://marion-lixy.top/2017/02/07/%E7%9B%B8%E8%AF%86%E7%AC%AC%E4%B8%80%E5%A4%A9/"/>
-    <id>http://marion-lixy.top/2017/02/07/相识第一天/</id>
+    <link href="http://marion-lixy.top/2017/02/07/meetingfirstday/"/>
+    <id>http://marion-lixy.top/2017/02/07/meetingfirstday/</id>
     <published>2017-02-07T11:42:33.000Z</published>
-    <updated>2017-02-07T12:57:45.937Z</updated>
+    <updated>2017-11-26T04:49:21.652Z</updated>
     
     <content type="html"><![CDATA[<p>过完年后，第一天不在状态的上班，一个偶然的下午，老四再微信里面给我发了一条信息，说有学妹要过来，给我发了几张照片，要我照顾好她，我一看还挺漂亮的，有想要交往的冲动，我不知道是不是我的爱情来了，但是感谢上帝，我得抓紧，从朋友开始，这是我百忙之中闪过的一个念头……</p>
 ]]></content>
@@ -395,19 +405,19 @@ PushbackInputStream
     
     </summary>
     
-      <category term="爱情" scheme="http://marion-lixy.top/categories/%E7%88%B1%E6%83%85/"/>
+      <category term="freindship" scheme="http://marion-lixy.top/categories/freindship/"/>
     
     
-      <category term="相识" scheme="http://marion-lixy.top/tags/%E7%9B%B8%E8%AF%86/"/>
+      <category term="loving" scheme="http://marion-lixy.top/tags/loving/"/>
     
   </entry>
   
   <entry>
     <title>年关</title>
-    <link href="http://marion-lixy.top/2017/01/15/%E5%B9%B4%E5%85%B3/"/>
-    <id>http://marion-lixy.top/2017/01/15/年关/</id>
+    <link href="http://marion-lixy.top/2017/01/15/years_end/"/>
+    <id>http://marion-lixy.top/2017/01/15/years_end/</id>
     <published>2017-01-15T05:14:19.000Z</published>
-    <updated>2017-01-15T08:04:59.976Z</updated>
+    <updated>2017-11-26T04:44:08.263Z</updated>
     
     <content type="html"><![CDATA[<p>   对于简体字用久了，还知不知道关的繁体字怎么写,繁体是最能体现象形，指事，会意的文字，流传变迁至今，可谓博大精深，<font size="15px">“關”</font>字，在许慎的《说文解字》中，指：以木橫持門戶也。表示用木栓横穿两扇门的栓孔，再加绳索系绑，使两扇门板牢牢紧闭。引申到现在除了闭合，合拢之意等，还意指重要的转折点，不易度过的时机，比如，“年关”。</p>
 <p>   一年到头了，年兽给我们设立了一道关卡。好的坏的，欣喜的糟糕的，亲切的不亲切的，可预见的不可预见的，和有钱有关的和没钱有关的，五味杂陈，有一夫当关，万夫莫开之囧。岂非能有“饮苦不举眉，尝欢无扬笑”之境界。</p>
@@ -422,19 +432,19 @@ PushbackInputStream
     
     </summary>
     
-      <category term="生活" scheme="http://marion-lixy.top/categories/%E7%94%9F%E6%B4%BB/"/>
+      <category term="life" scheme="http://marion-lixy.top/categories/life/"/>
     
     
-      <category term="感悟" scheme="http://marion-lixy.top/tags/%E6%84%9F%E6%82%9F/"/>
+      <category term="feeling" scheme="http://marion-lixy.top/tags/feeling/"/>
     
   </entry>
   
   <entry>
     <title>什么样的公司，才是好公司？</title>
-    <link href="http://marion-lixy.top/2017/01/14/%E4%BB%80%E4%B9%88%E6%A0%B7%E7%9A%84%E5%85%AC%E5%8F%B8%EF%BC%8C%E6%89%8D%E6%98%AF%E5%A5%BD%E5%85%AC%E5%8F%B8/"/>
-    <id>http://marion-lixy.top/2017/01/14/什么样的公司，才是好公司/</id>
+    <link href="http://marion-lixy.top/2017/01/14/good_company/"/>
+    <id>http://marion-lixy.top/2017/01/14/good_company/</id>
     <published>2017-01-14T11:05:39.000Z</published>
-    <updated>2017-01-14T12:53:35.971Z</updated>
+    <updated>2017-11-26T04:40:09.311Z</updated>
     
     <content type="html"><![CDATA[<p>   现在所在的公司，是在13年被一家大公司收购的小公司，我也不知道当初是在什么情况下，以何种方式，形式并购的案例，对于这种事情，公司老总，老员工自然不会提及，更有可能是机密，记得前几月，公司搬到母公司来，老总也没说，更凑巧的是，一次聊天中，我故意说这家大公司，老喜欢吞并小公司，又没有取长补短的优势，还引来管理不善的弊端，惹怒老总得不悦。</p>
 <p>   事实上，被收购几年下来，小公司的发展模式还是按照以前的模式发展，这期间小公司应该多多少少盈利了一些，不然会被大公司整顿，小公司03年成立以来，以这种同银行打交道的技术水平，确实不敢恭维，小公司目前的盈利方式，主要靠项目和人员外包，也就是小三的干活，这也是现在大部分软件公司的模式，真正像用友这样有自己产品线品牌的公司几乎没有。</p>
@@ -451,19 +461,19 @@ PushbackInputStream
     
     </summary>
     
-      <category term="生活" scheme="http://marion-lixy.top/categories/%E7%94%9F%E6%B4%BB/"/>
+      <category term="life" scheme="http://marion-lixy.top/categories/life/"/>
     
     
-      <category term="感悟" scheme="http://marion-lixy.top/tags/%E6%84%9F%E6%82%9F/"/>
+      <category term="feeling" scheme="http://marion-lixy.top/tags/feeling/"/>
     
   </entry>
   
   <entry>
     <title>又是一年圣诞季</title>
-    <link href="http://marion-lixy.top/2016/12/24/%E5%9C%A3%E8%AF%9E%E8%BF%87%E5%B9%B4/"/>
-    <id>http://marion-lixy.top/2016/12/24/圣诞过年/</id>
+    <link href="http://marion-lixy.top/2016/12/24/christmas/"/>
+    <id>http://marion-lixy.top/2016/12/24/christmas/</id>
     <published>2016-12-24T05:41:05.000Z</published>
-    <updated>2016-12-24T14:19:34.180Z</updated>
+    <updated>2017-11-26T04:42:03.376Z</updated>
     
     <content type="html"><![CDATA[  <img src="/images/2016/12/13.jpg" class="full-image">
 <p>  又是一年圣诞季，这是无信仰的人忧郁的一天，有时顿觉生活的意义全无。<br>  我不信耶稣,狂欢似乎与我无关,但是狂欢是一个人的内心孤单。我想我是海，但是一颗小石块都可以激起我内心的澎湃。我想我是苍穹，但是一只鸟也会留下痕迹。狂欢一直都与我有关，从布满雪花的窗户开始……</p>
@@ -484,19 +494,19 @@ PushbackInputStream
     
     </summary>
     
-      <category term="生活" scheme="http://marion-lixy.top/categories/%E7%94%9F%E6%B4%BB/"/>
+      <category term="life" scheme="http://marion-lixy.top/categories/life/"/>
     
     
-      <category term="节日" scheme="http://marion-lixy.top/tags/%E8%8A%82%E6%97%A5/"/>
+      <category term="festival" scheme="http://marion-lixy.top/tags/festival/"/>
     
   </entry>
   
   <entry>
     <title>我又搬家了</title>
-    <link href="http://marion-lixy.top/2016/12/11/%E6%88%91%E6%90%AC%E5%AE%B6%E4%BA%86/"/>
-    <id>http://marion-lixy.top/2016/12/11/我搬家了/</id>
+    <link href="http://marion-lixy.top/2016/12/11/move_house/"/>
+    <id>http://marion-lixy.top/2016/12/11/move_house/</id>
     <published>2016-12-11T08:04:31.000Z</published>
-    <updated>2016-12-11T10:38:46.092Z</updated>
+    <updated>2017-11-26T05:16:12.194Z</updated>
     
     <content type="html"><![CDATA[<img src="/images/2016/12/800.jpg" class="full-image">
 <p>   快过年的了，今年已经搬了两次家了，这次搬到了离公司近一点的地方，只为了减少上班行程，从接近两个小时，缩短为20分钟，我想生活要舒服点，尽管处在奋斗的年纪。</p>
@@ -516,16 +526,16 @@ PushbackInputStream
     </summary>
     
     
-      <category term="生活" scheme="http://marion-lixy.top/tags/%E7%94%9F%E6%B4%BB/"/>
+      <category term="life" scheme="http://marion-lixy.top/tags/life/"/>
     
   </entry>
   
   <entry>
     <title>苦闷与彷徨</title>
-    <link href="http://marion-lixy.top/2016/12/01/%E8%8B%A6%E9%97%B7%E4%B8%8E%E5%BD%B7%E5%BE%A8/"/>
-    <id>http://marion-lixy.top/2016/12/01/苦闷与彷徨/</id>
+    <link href="http://marion-lixy.top/2016/12/01/hesitation/"/>
+    <id>http://marion-lixy.top/2016/12/01/hesitation/</id>
     <published>2016-12-01T11:10:12.000Z</published>
-    <updated>2016-12-01T13:01:51.686Z</updated>
+    <updated>2017-11-26T04:52:37.164Z</updated>
     
     <content type="html"><![CDATA[<blockquote><p>苦闷跟彷徨却是时时刻刻的事情，可我们心意的事情毕竟是少数，不按照我们心意来的事情却是大多数</p>
 </blockquote>
@@ -546,19 +556,19 @@ PushbackInputStream
     
     </summary>
     
-      <category term="工作" scheme="http://marion-lixy.top/categories/%E5%B7%A5%E4%BD%9C/"/>
+      <category term="work" scheme="http://marion-lixy.top/categories/work/"/>
     
     
-      <category term="工作感想" scheme="http://marion-lixy.top/tags/%E5%B7%A5%E4%BD%9C%E6%84%9F%E6%83%B3/"/>
+      <category term="feeling" scheme="http://marion-lixy.top/tags/feeling/"/>
     
   </entry>
   
   <entry>
     <title>走了一段很长的路,突然又想折回来</title>
-    <link href="http://marion-lixy.top/2016/11/12/%E8%B5%B0%E4%BA%86%E4%B8%80%E6%AE%B5%E5%BE%88%E9%95%BF%E7%9A%84%E8%B7%AF-%E7%AA%81%E7%84%B6%E5%8F%88%E6%83%B3%E6%8A%98%E5%9B%9E%E6%9D%A5/"/>
-    <id>http://marion-lixy.top/2016/11/12/走了一段很长的路-突然又想折回来/</id>
+    <link href="http://marion-lixy.top/2016/11/12/retreat/"/>
+    <id>http://marion-lixy.top/2016/11/12/retreat/</id>
     <published>2016-11-12T13:57:35.000Z</published>
-    <updated>2016-11-12T15:26:50.867Z</updated>
+    <updated>2017-11-26T05:17:00.013Z</updated>
     
     <content type="html"><![CDATA[<p>或许是被最近一段异乎寻常每天工作12小时，挤地铁3,4个钟头的时间累怕了，突然又开始厌烦IT的生活，或许某人说的对，我此次是可能跳到坑里了，料想以前刚入行那会，我都没这么忙过，一路跌跌撞撞也走过来了</p>
 <p>在IT行业，加班是常态，才是正常表现，但我同时认为这是没有解放生产力的表现，有很多重复的劳动，尤其是基于这种crm内容管理系统开发，里面是有多少重复的code，写得我都快吐了，我在想，代码构筑抽象世界的能力哪去了，设计模式套不住这么复杂的业务场景？没有这种领域驱动模型？缺乏相应数据结构算法？不禁扪心自问，alphgo在现实中得有多少这种业务场景，我们也统计不出来吧。</p>
@@ -577,7 +587,7 @@ PushbackInputStream
     
     </summary>
     
-      <category term="生活" scheme="http://marion-lixy.top/categories/%E7%94%9F%E6%B4%BB/"/>
+      <category term="life" scheme="http://marion-lixy.top/categories/life/"/>
     
     
       <category term="bibi" scheme="http://marion-lixy.top/tags/bibi/"/>
@@ -586,10 +596,10 @@ PushbackInputStream
   
   <entry>
     <title>为什么过了23岁就再难交到好朋友</title>
-    <link href="http://marion-lixy.top/2016/10/29/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BF%87%E4%BA%8623%E5%B2%81%E5%B0%B1%E5%86%8D%E9%9A%BE%E4%BA%A4%E5%88%B0%E5%A5%BD%E6%9C%8B%E5%8F%8B/"/>
-    <id>http://marion-lixy.top/2016/10/29/为什么过了23岁就再难交到好朋友/</id>
+    <link href="http://marion-lixy.top/2016/10/29/23_years_old/"/>
+    <id>http://marion-lixy.top/2016/10/29/23_years_old/</id>
     <published>2016-10-29T11:39:52.000Z</published>
-    <updated>2016-10-29T13:31:23.792Z</updated>
+    <updated>2017-11-26T04:39:07.597Z</updated>
     
     <content type="html"><![CDATA[<blockquote><p>–摘自喜马拉雅 文：陆JJ</p>
 </blockquote>
@@ -673,19 +683,19 @@ PushbackInputStream
     
     </summary>
     
-      <category term="生活" scheme="http://marion-lixy.top/categories/%E7%94%9F%E6%B4%BB/"/>
+      <category term="life" scheme="http://marion-lixy.top/categories/life/"/>
     
     
-      <category term="感悟" scheme="http://marion-lixy.top/tags/%E6%84%9F%E6%82%9F/"/>
+      <category term="feeling" scheme="http://marion-lixy.top/tags/feeling/"/>
     
   </entry>
   
   <entry>
     <title>职业寒冬</title>
-    <link href="http://marion-lixy.top/2016/10/22/%E8%81%8C%E4%B8%9A/"/>
-    <id>http://marion-lixy.top/2016/10/22/职业/</id>
+    <link href="http://marion-lixy.top/2016/10/22/career/"/>
+    <id>http://marion-lixy.top/2016/10/22/career/</id>
     <published>2016-10-22T13:02:25.000Z</published>
-    <updated>2016-10-22T15:57:35.705Z</updated>
+    <updated>2017-11-26T04:50:51.687Z</updated>
     
     <content type="html"><![CDATA[<img src="/images/2016/10/timg.jpg" class="full-image">
 <p>北京这边下了淅淅沥沥的雨，骑在自行车上时，感觉到了夜晚的风很冷……</p>
@@ -707,19 +717,19 @@ PushbackInputStream
     
     </summary>
     
-      <category term="工作" scheme="http://marion-lixy.top/categories/%E5%B7%A5%E4%BD%9C/"/>
+      <category term="work" scheme="http://marion-lixy.top/categories/work/"/>
     
     
-      <category term="职业" scheme="http://marion-lixy.top/tags/%E8%81%8C%E4%B8%9A/"/>
+      <category term="career" scheme="http://marion-lixy.top/tags/career/"/>
     
   </entry>
   
   <entry>
     <title>我的国庆7天流水账</title>
-    <link href="http://marion-lixy.top/2016/10/07/%E6%88%91%E7%9A%84%E5%9B%BD%E5%BA%867%E5%A4%A9/"/>
-    <id>http://marion-lixy.top/2016/10/07/我的国庆7天/</id>
+    <link href="http://marion-lixy.top/2016/10/07/2016_nation_7days/"/>
+    <id>http://marion-lixy.top/2016/10/07/2016_nation_7days/</id>
     <published>2016-10-07T00:34:22.000Z</published>
-    <updated>2016-10-07T08:31:39.885Z</updated>
+    <updated>2017-11-26T04:47:32.353Z</updated>
     
     <content type="html"><![CDATA[<blockquote><p>文明发展基础的一部分是靠粉碎其原有的社会结构来构建新秩序的，这是一个需要深刻讨论的问题，它超越亲情，无关牵挂，更非三言两语可以说清。</p>
 </blockquote>
@@ -743,19 +753,19 @@ PushbackInputStream
     
     </summary>
     
-      <category term="生活" scheme="http://marion-lixy.top/categories/%E7%94%9F%E6%B4%BB/"/>
+      <category term="life" scheme="http://marion-lixy.top/categories/life/"/>
     
     
-      <category term="节日" scheme="http://marion-lixy.top/tags/%E8%8A%82%E6%97%A5/"/>
+      <category term="feeling" scheme="http://marion-lixy.top/tags/feeling/"/>
     
   </entry>
   
   <entry>
     <title>写下来，可以很美妙</title>
-    <link href="http://marion-lixy.top/2016/09/22/%E5%86%99%E5%9C%A8%E6%9C%80%E5%89%8D%E9%9D%A2%E7%9A%84%E8%AF%9D/"/>
-    <id>http://marion-lixy.top/2016/09/22/写在最前面的话/</id>
+    <link href="http://marion-lixy.top/2016/09/22/front_say/"/>
+    <id>http://marion-lixy.top/2016/09/22/front_say/</id>
     <published>2016-09-22T04:46:00.000Z</published>
-    <updated>2016-09-25T12:10:26.767Z</updated>
+    <updated>2017-11-26T04:40:37.125Z</updated>
     
     <content type="html"><![CDATA[<blockquote class="blockquote-center"><p>程序员和上帝打赌要开发出更大更好——傻瓜都会用的软件。而上帝却总能创造出更大更傻的傻瓜。所以，上帝总能赢。 -<em>上帝</em> </p>
 </blockquote>
@@ -776,19 +786,19 @@ PushbackInputStream
     
     </summary>
     
-      <category term="生活" scheme="http://marion-lixy.top/categories/%E7%94%9F%E6%B4%BB/"/>
+      <category term="life" scheme="http://marion-lixy.top/categories/life/"/>
     
     
-      <category term="写作" scheme="http://marion-lixy.top/tags/%E5%86%99%E4%BD%9C/"/>
+      <category term="write" scheme="http://marion-lixy.top/tags/write/"/>
     
   </entry>
   
   <entry>
     <title>第一课</title>
-    <link href="http://marion-lixy.top/2016/09/20/%E7%AC%AC%E4%B8%80%E6%AC%A1github%E5%8D%9A%E5%AE%A2/"/>
-    <id>http://marion-lixy.top/2016/09/20/第一次github博客/</id>
+    <link href="http://marion-lixy.top/2016/09/20/first_github_blog/"/>
+    <id>http://marion-lixy.top/2016/09/20/first_github_blog/</id>
     <published>2016-09-20T09:47:00.000Z</published>
-    <updated>2016-12-01T11:04:49.495Z</updated>
+    <updated>2017-11-26T04:50:09.930Z</updated>
     
     <content type="html"><![CDATA[<blockquote><p>拿什么开始我的生活……</p>
 <footer><strong>lixy</strong></footer></blockquote>
@@ -805,10 +815,10 @@ PushbackInputStream
     
     </summary>
     
-      <category term="工作" scheme="http://marion-lixy.top/categories/%E5%B7%A5%E4%BD%9C/"/>
+      <category term="work" scheme="http://marion-lixy.top/categories/work/"/>
     
     
-      <category term="乱弹" scheme="http://marion-lixy.top/tags/%E4%B9%B1%E5%BC%B9/"/>
+      <category term="says" scheme="http://marion-lixy.top/tags/says/"/>
     
       <category term="BiBi" scheme="http://marion-lixy.top/tags/BiBi/"/>
     
