@@ -4,6 +4,28 @@
   
     
     <entry>
+      <title><![CDATA[SpringBoot热部署的方式和原理]]></title>
+      <url>http://marion-lixy.top/2017/12/09/spring-boot-hot-deploy/</url>
+      <content type="html"><![CDATA[<p>首先，热部署和热加载还是有一些不同的，热部署一般生产环境中，用的比较多，热加载在开发环境中比较多，修改类之后，希望立即看到变化</p>
+<p>springboot现在是分布式架构中，比较流行，成熟的的框架，原因围绕springboot有丰富的生态圈技术，使人们少走弯路。</p>
+<p>热部署我目前所知的有三种技术，但原理都相差不大，都是在后台一个线程，监测后台class文件变化，并且载入jvm虚拟机中，走的是jvm虚拟机过程。</p>
+<pre><code>1. 可以使用apache tomcat技术加载
+2. 使用spring-boot-devtool
+3. 使用springloaed
+</code></pre><p>原理已经介绍过了，方法工具也说了，具体就靠自己了</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[要努力开始自己的生活]]></title>
+      <url>http://marion-lixy.top/2017/12/03/a-career-life/</url>
+      <content type="html"><![CDATA[<blockquote><p>一个人男人要走多少路，才能称之为男子汉，一只白鸽要飞跃几多重洋，才能憩息在沙滩上？ ——鲍勃.迪伦</p>
+</blockquote> 
+<p>  草地在哪，脱缰的野马需要自由的驰骋。<br>  日子一天天流逝，未来不可追，想要好好的活，努力<span style="color:red;">沉下心来干一件事</span>，未来才可能属于自己的。<br>  我有资本，我有热情，我有满腔的自信。</p>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[我回长沙了]]></title>
       <url>http://marion-lixy.top/2017/07/17/cs_life/</url>
       <content type="html"><![CDATA[<blockquote><p>心若没有栖息的地方，到哪里都是流浪。</p>

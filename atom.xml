@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://marion-lixy.top/"/>
-  <updated>2017-11-26T04:45:49.875Z</updated>
+  <updated>2017-12-09T15:07:34.246Z</updated>
   <id>http://marion-lixy.top/</id>
   
   <author>
@@ -14,6 +14,63 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>SpringBoot热部署的方式和原理</title>
+    <link href="http://marion-lixy.top/2017/12/09/spring-boot-hot-deploy/"/>
+    <id>http://marion-lixy.top/2017/12/09/spring-boot-hot-deploy/</id>
+    <published>2017-12-09T14:47:05.000Z</published>
+    <updated>2017-12-09T15:07:34.246Z</updated>
+    
+    <content type="html"><![CDATA[<p>首先，热部署和热加载还是有一些不同的，热部署一般生产环境中，用的比较多，热加载在开发环境中比较多，修改类之后，希望立即看到变化</p>
+<p>springboot现在是分布式架构中，比较流行，成熟的的框架，原因围绕springboot有丰富的生态圈技术，使人们少走弯路。</p>
+<p>热部署我目前所知的有三种技术，但原理都相差不大，都是在后台一个线程，监测后台class文件变化，并且载入jvm虚拟机中，走的是jvm虚拟机过程。</p>
+<pre><code>1. 可以使用apache tomcat技术加载
+2. 使用spring-boot-devtool
+3. 使用springloaed
+</code></pre><p>原理已经介绍过了，方法工具也说了，具体就靠自己了</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;首先，热部署和热加载还是有一些不同的，热部署一般生产环境中，用的比较多，热加载在开发环境中比较多，修改类之后，希望立即看到变化&lt;/p&gt;
+&lt;p&gt;springboot现在是分布式架构中，比较流行，成熟的的框架，原因围绕springboot有丰富的生态圈技术，使人们少走弯路。&lt;/
+    
+    </summary>
+    
+      <category term="technology,java" scheme="http://marion-lixy.top/categories/technology-java/"/>
+    
+    
+      <category term="spring" scheme="http://marion-lixy.top/tags/spring/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>要努力开始自己的生活</title>
+    <link href="http://marion-lixy.top/2017/12/03/a-career-life/"/>
+    <id>http://marion-lixy.top/2017/12/03/a-career-life/</id>
+    <published>2017-12-03T14:46:04.000Z</published>
+    <updated>2017-12-03T14:57:38.614Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>一个人男人要走多少路，才能称之为男子汉，一只白鸽要飞跃几多重洋，才能憩息在沙滩上？ ——鲍勃.迪伦</p>
+</blockquote> 
+<p>  草地在哪，脱缰的野马需要自由的驰骋。<br>  日子一天天流逝，未来不可追，想要好好的活，努力<span style="color:red;">沉下心来干一件事</span>，未来才可能属于自己的。<br>  我有资本，我有热情，我有满腔的自信。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;&lt;p&gt;一个人男人要走多少路，才能称之为男子汉，一只白鸽要飞跃几多重洋，才能憩息在沙滩上？ ——鲍勃.迪伦&lt;/p&gt;
+&lt;/blockquote&gt; 
+&lt;p&gt;  草地在哪，脱缰的野马需要自由的驰骋。&lt;br&gt;  日子一天天流逝，未来不可追，想要好好的活，努力&lt;spa
+    
+    </summary>
+    
+      <category term="life" scheme="http://marion-lixy.top/categories/life/"/>
+    
+    
+      <category term="feeling" scheme="http://marion-lixy.top/tags/feeling/"/>
+    
+  </entry>
   
   <entry>
     <title>我回长沙了</title>
@@ -757,70 +814,6 @@ PushbackInputStream
     
     
       <category term="feeling" scheme="http://marion-lixy.top/tags/feeling/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>写下来，可以很美妙</title>
-    <link href="http://marion-lixy.top/2016/09/22/front_say/"/>
-    <id>http://marion-lixy.top/2016/09/22/front_say/</id>
-    <published>2016-09-22T04:46:00.000Z</published>
-    <updated>2017-11-26T04:40:37.125Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote class="blockquote-center"><p>程序员和上帝打赌要开发出更大更好——傻瓜都会用的软件。而上帝却总能创造出更大更傻的傻瓜。所以，上帝总能赢。 -<em>上帝</em> </p>
-</blockquote>
-<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><hr>
-<p>前几天，听说微信应用号来解放我们程序猿了，我一下子懵逼了，使我坐立不安，研究网络爬虫推送文章的公众号那个还弄不弄了（太懒了），微信发展咋这么快，一个人的力量好单薄哦，万一我失业了怎么办，带着这么感慨，我感觉到了深深的孤独啊，我所重试方向，还不是我喜欢的方向，真是人世比较大的痛苦啊</p>
-<p>想到这里，刚好我看到了网上某个博客做的很漂亮，一想到这里，这一行也干了好几年了，我咋就没有属于自己的知识财富呢，于是乎，闲来无事，花了好几天也搭了一个属于自己的静态js博客，算是属于自己的一个角落，可以整理一些属于自己东西。</p>
-<h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><p>  谈点什么好呢，我又不是愤青，也不是文青，朋友圈里只能给别人点赞的那种，没谈过loving，有又缺乏故事，算了，不谈了。</p>
-<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>如果大家，有感兴趣搭建属于自己风格的博客，可以在简书上搜一下，用nodejs写的hexo博客引擎，是开源的东西，我推荐一下这个作者,<a href="http://www.jianshu.com/p/0b2f73beeda4，" target="_blank" rel="external">http://www.jianshu.com/p/0b2f73beeda4，</a><br>基本上不需要多少编程知识，如果有不懂得可以Q我。这是我了解到一些风格,还有好多。</p>
-<p>网上已有很多教程，我尝试一下，大体上都没什么问题，我花的时间也都在细节处理上。例如域名，搜索抓取等等，由于自己想使用免费的东西，所以是浪费不少时间的在这上面，想到这里何必要省这点钱呢。</p>
-<p><img src="/images/2016/09/ScreenClip.png" height="200"><img src="/images/2016/09/ScreenClip (2).png" height="200"></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;p&gt;程序员和上帝打赌要开发出更大更好——傻瓜都会用的软件。而上帝却总能创造出更大更傻的傻瓜。所以，上帝总能赢。 -&lt;em&gt;上帝&lt;/em&gt; &lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h1 id=&quot;前言&quot;&gt;&lt;
-    
-    </summary>
-    
-      <category term="life" scheme="http://marion-lixy.top/categories/life/"/>
-    
-    
-      <category term="write" scheme="http://marion-lixy.top/tags/write/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>第一课</title>
-    <link href="http://marion-lixy.top/2016/09/20/first_github_blog/"/>
-    <id>http://marion-lixy.top/2016/09/20/first_github_blog/</id>
-    <published>2016-09-20T09:47:00.000Z</published>
-    <updated>2017-11-26T04:50:09.930Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote><p>拿什么开始我的生活……</p>
-<footer><strong>lixy</strong></footer></blockquote>
-<h2 id="现在的一代年轻人"><a href="#现在的一代年轻人" class="headerlink" title="现在的一代年轻人"></a>现在的一代年轻人</h2><pre><code>现在的一代年轻人
-</code></pre><h2 id="大量"><a href="#大量" class="headerlink" title="大量"></a>大量</h2><pre><code>大量的都是用语言来传递自己的情感，微信或者打电话。
-</code></pre><h2 id="其实"><a href="#其实" class="headerlink" title="其实"></a>其实</h2><pre><code>其实,今天这样的一个考验，更多的应该是用纸和笔，所以字非常非常重要。
-</code></pre>]]></content>
-    
-    <summary type="html">
-    
-      &lt;blockquote&gt;&lt;p&gt;拿什么开始我的生活……&lt;/p&gt;
-&lt;footer&gt;&lt;strong&gt;lixy&lt;/strong&gt;&lt;/footer&gt;&lt;/blockquote&gt;
-&lt;h2 id=&quot;现在的一代年轻人&quot;&gt;&lt;a href=&quot;#现在的一代年轻人&quot; class=&quot;headerlink&quot; 
-    
-    </summary>
-    
-      <category term="work" scheme="http://marion-lixy.top/categories/work/"/>
-    
-    
-      <category term="says" scheme="http://marion-lixy.top/tags/says/"/>
-    
-      <category term="BiBi" scheme="http://marion-lixy.top/tags/BiBi/"/>
     
   </entry>
   
