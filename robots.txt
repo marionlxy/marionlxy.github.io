@@ -9,5 +9,3 @@ Disallow: /css/
 Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
-
-Sitemap: http://marion-lixy/baidusitemap.xml
